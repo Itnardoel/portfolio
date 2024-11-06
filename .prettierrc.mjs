@@ -8,7 +8,9 @@ export default {
   bracketSpacing: true,
   arrowParens: "always",
   endOfLine: "auto",
-  plugins: ['prettier-plugin-astro', 'prettier-plugin-tailwindcss'],
-  overrides: [{ files: '*.astro', options: { parser: 'astro' } }],
-  overrides: [{ files: ['*.json', '*.md', '*.toml', '*.yml'], options: { useTabs: false } }],
-}
+  plugins: ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
+  overrides: [
+    { files: "*.astro", options: { parser: "astro" } },
+    { files: ["*.json", "*.md", "*.toml", "*.yml"], options: { useTabs: false } },
+  ],
+};
